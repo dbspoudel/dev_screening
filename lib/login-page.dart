@@ -205,7 +205,7 @@ class _LoginPageState extends State<LoginPage>
                             controller: _passwordController,
                             obscureText: !showPassword,
                             decoration: InputDecoration(
-                              prefixIcon: Icon(Icons.security),
+                              prefixIcon: Icon(Icons.vpn_key),
                               labelText: "Password",
                               hintText: "Your Password here",
                               suffixIcon: IconButton(
